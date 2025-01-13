@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class DoWhile{
+	public static void main(String[] args){
+		
+		Scanner scan = new Scanner(System.in);
+		int score;
+		int sumOfScore = 0;
+		double average;
+		
+		do{
+		System.out.print("Enter score ");
+		score = scan.nextInt();
+		
+		sumOfScore += score;
+		i++;
+		}while( i <= 10);
+		
+		average = (double)sumOfScore/10;
+		System.out.print("The Score Average is " + average);
+		
+	}
+}
