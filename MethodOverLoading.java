@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class MethodOverLoading{
 	public static void main(String[] args){
-		Scanner scan = new Scanner(System.in);
-		System.out.println("____Menu___");
-		System.out.println("Enter 1 to calculate the perimeter of square:");
-		System.out.println("Enter 2 to calculate the perimeter of rectangle:");
+			Scanner scan = new Scanner(System.in);
+			System.out.println("____Menu___");
+			System.out.println("Enter 1 to calculate the perimeter of square:");
+			System.out.println("Enter 2 to calculate the perimeter of rectangle:");
 		
-		int choice = scan.nextInt();
+			int choice = scan.nextInt();
 		
 		switch(choice){
 			case 1:
@@ -40,5 +40,3 @@ public class MethodOverLoading{
 	public static void shape(int length, int breadth){
 		int perimeterOfRect = length * breadth;
 		System.out.println("The perimeter of the rectangle is " + perimeterOfRect);
-	}
-	}
